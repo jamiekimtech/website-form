@@ -11,7 +11,7 @@ const EmailForm = () => {
   const sendMail = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch('/post', {
+      let res = await fetch('https://jamie-kim.vercel.app/post', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
