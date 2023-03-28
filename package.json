@@ -51,5 +51,5 @@
   "devDependencies": {
     "webpack": "^5.76.3"
   },
-  "proxy": "https://jamie-kim.vercel.app/"
+  "proxy": "http://localhost:4001/"
 }
